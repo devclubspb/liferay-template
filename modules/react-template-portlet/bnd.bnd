@@ -1,0 +1,6 @@
+Bundle-Name: react-template-portlet
+Bundle-SymbolicName: ru.spb.devclub.liferay.template.portlet.react
+Bundle-Version: 1.0.0
+Export-Package: ru.spb.devclub.liferay.template.portlet.react.constants
+Web-ContextPath: /react-template-portlet
+-noee: true
