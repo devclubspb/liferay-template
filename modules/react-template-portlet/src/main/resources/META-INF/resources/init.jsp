@@ -12,4 +12,9 @@ taglib uri="http://liferay.com/tld/ui" prefix="liferay-ui" %>
 <portlet:defineObjects />
 
 <%
+    String size = portletPreferences.getValue("size", "300");
+    request.setAttribute("size", size);
+
+    String typeId = portletPreferences.getValue("typeId", "");
+    request.setAttribute("typeId", typeId);
 %>
