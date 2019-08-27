@@ -5,6 +5,8 @@
 <aui:script require="${mainRequire}">
     main.default('<portlet:namespace />-root', {
     	title: '${portletDisplay.title}',
-    	locale: '${themeDisplay.locale}'
+    	locale: '${themeDisplay.locale}',
+        size: '${size}',
+        typeId: '${typeId}'
     });
 </aui:script>
