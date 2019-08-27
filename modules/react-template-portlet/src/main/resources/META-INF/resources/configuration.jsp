@@ -15,19 +15,14 @@
 
     <aui:input name="redirect" type="hidden"
                value="${configurationRenderURL}" />
-    <div class="container-fluid-1280 feed-config">
-        <div class="card-horizontal main-content-card">
-            <div class="panel-group feed-config">
-                <aui:input name="size" label="size" title="size" value="${size}" />
-                <aui:select name="typeId" label="type" title="type">
-                    <%--@elvariable id="rubrics" type="java.util.List<java.util.Map.Entry<java.lang.String, java.lang.String>>"--%>
-                    <c:forEach items="${types}" var="type">
-                        <aui:option value="${type.key}" label="${type.value}" selected="${typeId eq type.key}" />
-                    </c:forEach>
-                </aui:select>
-
-                <aui:button type="submit" cssClass="btn btn-lg btn-primary btn-default" />
-            </div>
-        </div>
+    <div class="container py-3">
+        <aui:input name="size" label="size" title="size" value="${size}" />
+            <aui:select name="typeId" label="type" title="type">
+                <%--@elvariable id="rubrics" type="java.util.List<java.util.Map.Entry<java.lang.String, java.lang.String>>"--%>
+                <c:forEach items="${types}" var="type">
+                    <aui:option value="${type.key}" label="${type.value}" selected="${typeId eq type.key}" />
+                </c:forEach>
+            </aui:select>
+        <aui:button type="submit" cssClass="btn btn-lg btn-primary btn-default" />
     </div>
 </aui:form>
