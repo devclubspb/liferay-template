@@ -1,2 +1,3 @@
-# liferay-template
-The template project of Liferay.
+# liferay-templates
+
+Liferay templates.
