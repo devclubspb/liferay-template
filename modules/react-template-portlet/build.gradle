@@ -1,9 +1,9 @@
 dependencies {
-	compileOnly "com.liferay:com.liferay.frontend.js.loader.modules.extender.api:${frontendJsLoaderModulesExtenderApiVersion}" //TODO: add version variable to gradle.properties
-	compileOnly "com.liferay.portal:com.liferay.portal.kernel:${portalKernelVersion}" //TODO: add version variable to gradle.properties
-	compileOnly "com.liferay.portal:com.liferay.util.taglib:${portalUtilTaglibVersion}" //TODO: add version variable to gradle.properties
-	compileOnly "javax.portlet:portlet-api:${javaxPortletApiVersion}" //TODO: add version variable to gradle.properties
-	compileOnly "javax.servlet:javax.servlet-api:${javaxServletApiVersion}" //TODO: add version variable to gradle.properties
-	compileOnly "jstl:jstl:${jstlVersion}" //TODO: add version variable to gradle.properties
-	compileOnly "org.osgi:osgi.cmpn:${osgiCmpnVersion}" //TODO: add version variable to gradle.properties
+	compileOnly "com.liferay:com.liferay.frontend.js.loader.modules.extender.api:${frontendJsLoaderModulesExtenderApiVersion}"
+	compileOnly "com.liferay.portal:com.liferay.portal.kernel:${portalKernelVersion}"
+	compileOnly "com.liferay.portal:com.liferay.util.taglib:${portalUtilTaglibVersion}"
+	compileOnly "javax.portlet:portlet-api:${javaxPortletApiVersion}"
+	compileOnly "javax.servlet:javax.servlet-api:${javaxServletApiVersion}"
+	compileOnly "jstl:jstl:${jstlVersion}"
+	compileOnly "org.osgi:osgi.cmpn:${osgiCmpnVersion}"
 }
