@@ -1,0 +1,4 @@
+Bundle-Name: friendly-url
+Bundle-SymbolicName: ru.spb.iac.liferay.friendlyurl
+Bundle-Version: 1.0.0
+Export-Package: ru.spb.iac.liferay.friendlyurl.constants
