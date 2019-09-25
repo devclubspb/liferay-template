@@ -1,4 +1,4 @@
-![Liferay templates logo](docs/images/lr-templates-preview.jpeg "Liferay templates logo")
+![Liferay templates logo](docs/images/preview.jpeg "Liferay templates logo")
 
 # liferay-templates
 
